@@ -18,7 +18,7 @@
 # Dockerfile for installing the necessary dependencies for building Hadoop.
 # See BUILDING.txt.
 
-FROM ubuntu:20.04
+FROM ubuntu:20.10
 
 ARG DEBIAN_FRONTEND=noninteractive
 
